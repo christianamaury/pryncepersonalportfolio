@@ -76,6 +76,28 @@ function App() {
 
       </div>
 
+      <div className="LetsConnect">
+        <h2>
+      <FontAwesomeIcon icon={faBookmark} size="lg" className="BookMarkIconLeftSide"/>
+      LETS CONNECT
+    <FontAwesomeIcon icon={faBookmark} size="lg" className="BookMarkIcon"/>
+        </h2>
+
+      </div>
+
+      <div className="App ContactBox">
+      <form>
+      <input type="text" className="input-field" placeholder="your name"/>
+      <input type="email" className="input-field" placeholder="your email"/>
+      <input type="email" className="input-field" placeholder="your email"/>
+      <textarea type="text" className="input-field" placeholder="Your message">
+
+      </textarea>
+      </form>
+
+
+      </div>
+
 
       <footer>
 

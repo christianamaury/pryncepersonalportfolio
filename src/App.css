@@ -60,6 +60,52 @@ text-align: center;
 margin-left: 20px;
 }
 
+.LetsConnect{
+  background-color: white;
+  min-height: 0.1vh;
+  font-size: 2.5rem;
+  min-width: 0.1vh;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.ContactTextLayout
+{
+  background-color: #efefef;
+  font-family: sans-serif;
+}
+
+.ContactBox{
+  margin: 10px;
+  /* padding: 0; */
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 0 0 20px 0 #999;
+  top: 20%;
+  /* left: 50%; */
+  transform: translate(78%, -1%);
+  min-height: 60vh;
+  min-width: 100vh;
+  /* position: absolute; */
+}
+
+form{
+  margin: 35px;
+
+}
+
+.input-field{
+  width: 400px;
+  height: 40px;
+  /* margin-top: 15px; */
+   /* padding-right: 10px; */
+  border: 1px solid #777;
+  border-radius: 12px;
+  outline-color: none;
+}
+
+
 .Footer {
 padding: 2% 5%;
 text-align: center;
