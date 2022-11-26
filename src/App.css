@@ -54,6 +54,7 @@ text-align: left;
 .Author{
 background-color: white;
 min-height: 0.1vh;
+font-size: 2.5rem;
 min-width: 0.1vh;
 text-align: center;
 margin-left: 20px;
@@ -66,6 +67,28 @@ color: #8f8f8f;
 
 
 }
+
+.NoTimeImageBook{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.FlightAttendant{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
+.DevelopingHumanBook{
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
+
+}
+
 
 .BookMarkIcon{
   margin-left: 20px;
@@ -104,7 +127,8 @@ list-style-type: none;
 
 .OrderItems{
 color:  white;
-padding-top: 100px;
+padding-top: 15px;
+font-size: 2.5rem;
 text-align: center;
 justify-content: center;
 
@@ -121,12 +145,14 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 600px){
+
   .InitialPhoto{
   width: 60%;
   /* padding-right: 500px; */
   /* padding-left: 10px; */
   justify-content: center;
   position:relative;
+
   }
 
   .About{
@@ -137,8 +163,51 @@ justify-content: center;
   justify-content: center;
   margin-left: 225px;
   /* padding-left: 15px; */
+  }
+
+  .Author{
+  background-color: white;
+  min-height: 0.1vh;
+  min-width: 0.1vh;
+  text-align: center;
+  margin-left: 7px;
+  }
+
+  .BookMarkIcon{
+    margin-left: 8px;
+
 
   }
+
+  .BookMarkIconLeftSide{
+    margin-right: 8px;
+
+
+  }
+
+  .NoTimeImageBook{
+    width: 32%;
+    border-radius: 100%;
+    margin: 2px;
+
+  }
+
+  .FlightAttendant{
+    width: 32%;
+    border-radius: 100%;
+    margin: 2px;
+
+  }
+
+  .DevelopingHumanBook{
+    width: 32%;
+    border-radius: 100%;
+    margin: 2px;
+
+  }
+
+
+
   h1{
     color: black;
     font-size: 2.5rem;
@@ -155,6 +224,7 @@ justify-content: center;
   border-style: solid;
   border-color: black;
   /* padding-bottom: 2px; */
+
   }
 
 
@@ -173,17 +243,25 @@ justify-content: center;
   }
 }
 
+.About{
+background-color: white;
+min-height: 0.1vh;
+min-width: 0.1vh;
+/* text-align: left; */
+justify-content: center;
+/* margin-left: 100px; */
+/* padding-left: 15px; */
+}
+
+
+
+
 p{
   text-align: center;
   justify-content: center;
   padding-top: 25px;
 
 }
-
-
-
-
-
 
 
 

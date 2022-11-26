@@ -3,6 +3,9 @@ import BootstrapCarousel from "./BootstrapCarousel.js";
 import logo from './logo.svg';
 import './App.css';
 import reference1 from './Images/reference1.jpg';
+import Book1 from './Images/Book1.png';
+import Book2 from './Images/Book2.png';
+import Book3 from './Images/Book3.png';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faInstagram, faFacebook, faYoutube, faTwitter} from "@fortawesome/free-brands-svg-icons"
 import { faBookmark } from "@fortawesome/free-regular-svg-icons";
@@ -13,7 +16,11 @@ function App() {
 
     <div className="Title">
       <header>
-      <h1>PRYNCE MICHAEL </h1>
+      <FontAwesomeIcon icon={faInstagram} size="2x" className="InstagramLogo"/>
+      <FontAwesomeIcon icon={faFacebook} size="2x" className="FacebookLogo"/>
+      <FontAwesomeIcon icon={faYoutube} size="2x" className="YoutubeLogo"/>
+      <FontAwesomeIcon icon={faTwitter} size="2x" className="TwitterLogo"/>
+      <h1 className="titleMargin"> PRYNCE MICHAEL </h1>
       </header>
 
       <div className ="App">
@@ -53,11 +60,20 @@ function App() {
       <div className="App">
         <h2>
           <ul className="OrderItems">
-            <li> NO TIME LIKE THE PRESENT </li>
-            <li> I AM A FLIGHT ATTENDANT & THAT IS MY POWER </li>
-            <li> DEVELOPING HUMAN EQUITY </li>
+            <li> GET YOUR BOOKS TODAY </li>
+
           </ul>
         </h2>
+        <a href="https://www.amazon.com/No-Time-Like-Present-Enhance/dp/1646201620/ref=sr_1_4?crid=YO4XG2CHIDJJ&keywords=No+time+like+the+present&qid=1669437077&sprefix=no+time+like+the+presen%2Caps%2C130&sr=8-4" target="_blank">
+        <img className="NoTimeImageBook" src={Book1}  alt="Book1"/>
+        </a>
+        <a href="https://www.amazon.com/Am-Flight-Attendant-That-Superpower-ebook/dp/B09QY24QRQ/ref=sr_1_2?crid=346RTG880UI14&keywords=I+am+a+flight+attendant+and+that+is+my+superpower&qid=1669437307&s=books&sprefix=i+am+a+flight+attendant+and+that+is+my+superpowe%2Cstripbooks%2C132&sr=1-2" target="_blank">
+        <img className="FlightAttendant" src={Book2}  alt="Book2"/>
+        </a>
+        <a href="https://www.amazon.com/Handbook-Developing-Human-Equity-Civility-ebook/dp/B08WKV47W8/ref=sr_1_2?qid=1669437217&refinements=p_27%3APrynce+Michael&s=books&sr=1-2&text=Prynce+Michael" target="_blank">
+        <img className="DevelopingHumanBook" src={Book3}  alt="Book3"/>
+        </a>
+
       </div>
 
 
