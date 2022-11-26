@@ -1,6 +1,203 @@
+
+.Title{
+background-color: white;
+text-align: center;
+min-height: 1vh;
+border-style: solid;
+border-color: black;
+/* padding-bottom: 2px; */
+}
+
+h1{
+  color: black;
+  font-size: 2.5rem;
+  padding-top: -10px;
+  /* padding-left: 600px */
+}
+
+h2{
+color: black;
+font-size: 1.8rem;
+
+}
+
+h3{
+color: white;
+text-align: center;
+padding-top: 20px;
+/* padding-left: 600px */
+
+
+}
+
+.ParagraphClass{
+color: #8f8f8f;
+
+}
+
+.Title2{
+  /* padding-top: 20px; */
+  min-height: 40vh;
+  color: white;
+
+}
+
+.About{
+background-color: white;
+min-height: 0.1vh;
+min-width: 0.1vh;
+text-align: left;
+/* padding-left: 15px; */
+
+}
+
+.Author{
+background-color: white;
+min-height: 0.1vh;
+min-width: 0.1vh;
+text-align: center;
+margin-left: 20px;
+}
+
+.Footer {
+padding: 2% 5%;
+text-align: center;
+color: #8f8f8f;
+
+
+}
+
+.BookMarkIcon{
+  margin-left: 20px;
+
+
+}
+
+.BookMarkIconLeftSide{
+  margin-right: 20px;
+
+
+}
+
+.FacebookLogo{
+  margin-left: 20px;
+  padding-bottom: -30px
+
+}
+
+.YoutubeLogo{
+    margin-left: 20px;
+    padding-bottom: -80px;
+  }
+
+.TwitterLogo {
+  margin-left: 20px;
+  padding-bottom: -30px;
+}
+
+
+/* Removing bullets points; */
+ul{
+list-style-type: none;
+
+}
+
+.OrderItems{
+color:  white;
+padding-top: 100px;
+text-align: center;
+justify-content: center;
+
+}
+
+.InitialPhoto{
+width: 25%;
+/* padding-right: 1400px; */
+/* padding-left: 625px; */
+/* margin-left: 200px; */
+justify-content: center;
+/* position:relative; */
+
+}
+
+@media only screen and (max-width: 600px){
+  .InitialPhoto{
+  width: 60%;
+  /* padding-right: 500px; */
+  /* padding-left: 10px; */
+  justify-content: center;
+  position:relative;
+  }
+
+  .About{
+  background-color: white;
+  min-height: 0.1vh;
+  min-width: 0.1vh;
+  text-align: left;
+  justify-content: center;
+  margin-left: 225px;
+  /* padding-left: 15px; */
+
+  }
+  h1{
+    color: black;
+    font-size: 2.5rem;
+    padding-top: -10px;
+    /* padding-left: 600px */
+    margin-left: 88px;
+  }
+
+  .Title{
+  background-color: white;
+  text-align: center;
+  min-height: 1vh;
+  min-width: 61vh;
+  border-style: solid;
+  border-color: black;
+  /* padding-bottom: 2px; */
+  }
+
+
+
+
+}
+
+@media only screen and (min-width: 600px){
+
+  .InitialPhoto{
+  width: 35%;
+  /* padding-right: 1400px; */
+  justify-content: center;
+  position:relative;
+
+  }
+}
+
+p{
+  text-align: center;
+  justify-content: center;
+  padding-top: 25px;
+
+}
+
+
+
+
+
+
+
+
 .App {
   text-align: center;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  /* min-height: 60vh; */
+  min-height: 60vh;
+  min-width: 60vh;
+  border-style: solid;
+  border-color: grey;
 }
+
+
 
 .App-logo {
   height: 40vmin;
@@ -28,11 +225,14 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+
+
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
