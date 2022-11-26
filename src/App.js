@@ -1,3 +1,5 @@
+import React from 'react';
+import BootstrapCarousel from "./BootstrapCarousel.js";
 import logo from './logo.svg';
 import './App.css';
 import reference1 from './Images/reference1.jpg';
@@ -46,8 +48,6 @@ function App() {
     <FontAwesomeIcon icon={faBookmark} size="lg" className="BookMarkIcon"/>
         </h2>
 
-
-
       </div>
 
       <div className="App">
@@ -56,21 +56,22 @@ function App() {
             <li> NO TIME LIKE THE PRESENT </li>
             <li> I AM A FLIGHT ATTENDANT & THAT IS MY POWER </li>
             <li> DEVELOPING HUMAN EQUITY </li>
-
           </ul>
         </h2>
       </div>
+
+
       <footer>
-        <p className="Footer">
-        © Copyright I AM PRYNCE MICHAEL
-        </p>
 
-      <FontAwesomeIcon icon={faInstagram} size="lg" className="InstagramLogo"/>
-      <FontAwesomeIcon icon={faFacebook} size="lg" className="FacebookLogo"/>
-      <FontAwesomeIcon icon={faYoutube} size="lg" className="YoutubeLogo"/>
-      <FontAwesomeIcon icon={faTwitter} size="lg" className="TwitterLogo"/>
+      <FontAwesomeIcon icon={faInstagram} size="3x" className="InstagramLogo"/>
+      <FontAwesomeIcon icon={faFacebook} size="3x" className="FacebookLogo"/>
+      <FontAwesomeIcon icon={faYoutube} size="3x" className="YoutubeLogo"/>
+      <FontAwesomeIcon icon={faTwitter} size="3x" className="TwitterLogo"/>
+
+      <p className="Footer">
+      © Copyright I AM PRYNCE MICHAEL
+      </p>
       </footer>
-
 
     </div>
   );
