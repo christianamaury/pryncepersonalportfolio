@@ -84,7 +84,7 @@ margin-left: 20px;
   box-shadow: 0 0 20px 0 #999;
   top: 20%;
   /* left: 50%; */
-  transform: translate(78%, -1%);
+  transform: translate(82%, -1%);
   min-height: 60vh;
   min-width: 100vh;
   /* position: absolute; */
@@ -93,6 +93,11 @@ margin-left: 20px;
 form{
   margin: 35px;
 
+
+}
+
+input{
+  margin-top: 2px;
 }
 
 .input-field{
@@ -103,6 +108,24 @@ form{
   border: 1px solid #777;
   border-radius: 12px;
   outline-color: none;
+}
+
+.btn{
+  border-radius: 15px;
+  color: #fff;
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #47c35a;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.texttext-field{
+  height: 150px;
+  margin-top: 3px;
+
+
 }
 
 
