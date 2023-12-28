@@ -1,0 +1,42 @@
+
+/* Main Section to center it */
+#contact{
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contactDesc{
+  padding: 1rem;
+  font-size: medium;
+  font-weight: 280;
+}
+
+.contactForm{
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  max-width: 60rem;
+
+}
+
+.name, .email, .msg{
+  font-size: medium;
+  width: 100%;
+  max-width: 40rem;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  background: rgb(40,40,40);
+}

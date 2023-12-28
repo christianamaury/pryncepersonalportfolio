@@ -1,0 +1,77 @@
+#books{
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.booksTitle{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+
+}
+
+.booksDesc{
+  font-weight: 400;
+  /* Previously: 0.75 */
+  font-size: 1rem;
+  max-width: 51rem;
+  padding: 0 2rem;
+
+}
+
+.booksBars{
+  margin: 1.5rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: left;
+}
+
+.booksBar{
+  display: flex;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  background: rgb(50, 50, 50);
+}
+
+.booksBarImg{
+  object-fit: cover;
+  /* Initially was configured to 3rem */
+  height: 8rem;
+  width: 8rem;
+  margin-right: 2rem;
+
+}
+
+.bookBarText>p {
+  font-size: 0.9rem;
+  font-weight: 200;
+
+}
+
+@media screen and (max-width:720px){
+  .bookBarText>p{
+    font-size: 2vw;
+
+  }
+
+}
+
+@media screen and (max-width:430px){
+  .booksBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    font-size: 0.87rem;
+  }
+
+}
