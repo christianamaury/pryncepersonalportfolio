@@ -20,7 +20,6 @@
 
 .booksDesc{
   font-weight: 400;
-  /* Previously: 0.75 */
   font-size: 1rem;
   max-width: 51rem;
   padding: 0 2rem;
@@ -44,7 +43,6 @@
 
 .booksBarImg{
   object-fit: cover;
-  /* Initially was configured to 3rem */
   height: 8rem;
   width: 8rem;
   margin-right: 2rem;
@@ -52,7 +50,6 @@
 }
 
 .bookBarText>p {
-  /* Previously set to 0.9rem */
   font-size: 1.4rem;
   font-weight: 200;
 

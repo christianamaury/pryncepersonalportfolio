@@ -34,10 +34,10 @@ export const Intro = () => {
          but it is what we do with that potential that matters.
          </p>
 
-         <Link>
+         <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='introName'>
           <button className='btn'>
             <img src={btnImg} alt="Hire Me Photo" className='btnImg'/>
-              Let's Collaborate Together 
+              Let's Collaborate Together
           </button>
          </Link>
 

@@ -16,13 +16,12 @@ export const Navbar = () => {
           <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'> Home </Link>
           <Link activeClass='active' to='books' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'> Books </Link>
           <Link activeClass='active' to='contact' spy={true} smooth={true} offset={-100} duration={500} className='desktopMenuListItem'> About Me </Link>
-
         </div>
 
         <button className='desktopMenuBtn' onClick={() => {
             document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
           }}>
-          <img src={contact} alt='' className='desktopMenuImg'/>
+          <img src={contact} alt='' className='desktopMenuImg' />
           Contact Me
         </button>
 
@@ -37,5 +36,4 @@ export const Navbar = () => {
       </nav>
     </div>
   )
-
 }
