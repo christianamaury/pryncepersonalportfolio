@@ -37,7 +37,7 @@ export const Intro = () => {
          <Link>
           <button className='btn'>
             <img src={btnImg} alt="Hire Me Photo" className='btnImg'/>
-              Hire Me
+              Let's Collaborate Together 
           </button>
          </Link>
 
